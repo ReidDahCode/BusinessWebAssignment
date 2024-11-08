@@ -1,0 +1,121 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #F5F5F5;
+    padding: 20px;
+}
+
+.logonav {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background: #003060;
+    margin-bottom: 20px;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.navbar a.active,
+.navbar a:hover {
+    background: #29A0B1;
+    color: white;
+}
+
+.sec1left, .resgallary, marquee + div {
+    padding: 20px;
+    background: #F5F5F5;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+}
+
+.sec1left p {
+    text-align: left;
+    line-height: 1.6;
+}
+
+.resgallary {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px; /* Add gap between images */
+    padding: 10px; /* Add padding for spacing within the container */
+}
+
+.resgallary img {
+    width: 150px; /* Increase the image size */
+    height: auto;
+    transition: transform 0.3s ease;
+    cursor: pointer; /* Add cursor pointer on hover */
+}
+
+.resgallary img:hover {
+    transform: scale(1.2); /* Increase the scaling effect on hover */
+    transition: transform 0.3s ease;
+}
+
+marquee {
+    margin: 20px 0;
+    background: #003060;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #FFC000;
+    color: white;
+    border-radius: 10px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logofoot {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+footer i {
+    margin: 0 5px;
+    font-size: 20px;
+}
+/* Center text feature */
+.center-text {
+    text-align: center;
+}

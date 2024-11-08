@@ -1,0 +1,131 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #F5F5F5;
+    padding: 20px;
+}
+
+.logonav {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background: #003060;
+    margin-bottom: 20px;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.navbar a.active,
+.navbar a:hover {
+    background: #29A0B1;
+    color: white;
+}
+
+.content {
+    max-width: 900px;
+    margin: auto;
+    background: #F5F5F5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sec1left {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sec1left h2 {
+    margin-bottom: 10px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+}
+
+.service-item label {
+    margin-left: 10px;
+}
+
+.service-description {
+    margin-left: 20px;
+    color: #555;
+    font-style: italic;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #29A0B1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #FFC000;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #FFC000;
+    color: white;
+    border-radius: 10px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logofoot {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+footer i {
+    margin: 0 5px;
+    font-size: 20px;
+}

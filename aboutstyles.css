@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+    padding: 20px;
+}
+
+.logonav {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background: #003060;
+    margin-bottom: 20px;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.navbar a.active,
+.navbar a:hover {
+    background: #29A0B1;
+    color: white;
+}
+
+.content {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro, .details, .slogan {
+    margin-bottom: 20px;
+}
+
+.intro h1, .details h2, .slogan h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.intro p, .details p, .slogan p {
+    line-height: 1.6;
+    color: #555;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #FFC000;
+    color: white;
+    border-radius: 10px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logofoot {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+footer i {
+    margin: 0 5px;
+    font-size: 20px;
+}

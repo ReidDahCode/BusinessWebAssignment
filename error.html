@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Page</title>
+    <link rel="stylesheet" href="errorstyles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Access Denied</h1>
+        <p>You've reached the maximum number of login attempts. Please try again later.</p>
+        <button onclick="redirectToLogin()">Go Back to Login</button>
+    </div>
+    <script>
+        function redirectToLogin() {
+            window.location.href = 'login.html';
+        }
+    </script>
+</body>
+</html>
